@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		65EDFD591CCFE6A3006A8776 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EDFD581CCFE6A3006A8776 /* AppDelegate.swift */; };
-		65EDFD5B1CCFE6A3006A8776 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 65EDFD5A1CCFE6A3006A8776 /* GameScene.sks */; };
 		65EDFD5D1CCFE6A3006A8776 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EDFD5C1CCFE6A3006A8776 /* GameScene.swift */; };
 		65EDFD5F1CCFE6A3006A8776 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EDFD5E1CCFE6A3006A8776 /* GameViewController.swift */; };
 		65EDFD621CCFE6A3006A8776 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65EDFD601CCFE6A3006A8776 /* Main.storyboard */; };
@@ -16,7 +15,6 @@
 		65EDFD671CCFE6A3006A8776 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65EDFD651CCFE6A3006A8776 /* LaunchScreen.storyboard */; };
 		65EDFD721CCFE6A3006A8776 /* KrysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EDFD711CCFE6A3006A8776 /* KrysTests.swift */; };
 		65EDFD7D1CCFE6A3006A8776 /* KrysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EDFD7C1CCFE6A3006A8776 /* KrysUITests.swift */; };
-		65EDFD8B1CCFEADB006A8776 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 65EDFD8A1CCFEADB006A8776 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +37,6 @@
 /* Begin PBXFileReference section */
 		65EDFD551CCFE6A3006A8776 /* Krys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Krys.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65EDFD581CCFE6A3006A8776 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		65EDFD5A1CCFE6A3006A8776 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		65EDFD5C1CCFE6A3006A8776 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		65EDFD5E1CCFE6A3006A8776 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		65EDFD611CCFE6A3006A8776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -105,7 +102,6 @@
 			isa = PBXGroup;
 			children = (
 				65EDFD581CCFE6A3006A8776 /* AppDelegate.swift */,
-				65EDFD5A1CCFE6A3006A8776 /* GameScene.sks */,
 				65EDFD5C1CCFE6A3006A8776 /* GameScene.swift */,
 				65EDFD5E1CCFE6A3006A8776 /* GameViewController.swift */,
 				65EDFD601CCFE6A3006A8776 /* Main.storyboard */,
@@ -238,7 +234,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65EDFD5B1CCFE6A3006A8776 /* GameScene.sks in Resources */,
 				65EDFD671CCFE6A3006A8776 /* LaunchScreen.storyboard in Resources */,
 				65EDFD641CCFE6A3006A8776 /* Assets.xcassets in Resources */,
 				65EDFD621CCFE6A3006A8776 /* Main.storyboard in Resources */,
@@ -268,7 +263,6 @@
 			files = (
 				65EDFD5D1CCFE6A3006A8776 /* GameScene.swift in Sources */,
 				65EDFD5F1CCFE6A3006A8776 /* GameViewController.swift in Sources */,
-				65EDFD8B1CCFEADB006A8776 /* README.md in Sources */,
 				65EDFD591CCFE6A3006A8776 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +490,7 @@
 				65EDFD831CCFE6A3006A8776 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65EDFD841CCFE6A3006A8776 /* Build configuration list for PBXNativeTarget "KrysTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +499,7 @@
 				65EDFD861CCFE6A3006A8776 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65EDFD871CCFE6A3006A8776 /* Build configuration list for PBXNativeTarget "KrysUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +508,7 @@
 				65EDFD891CCFE6A3006A8776 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
